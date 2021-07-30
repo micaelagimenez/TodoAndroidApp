@@ -4,13 +4,17 @@
     android:layout_width="match_parent"
     android:layout_height="80dp"
     android:paddingStart="8dp"
+    android:background="#353030"
     android:paddingEnd="8dp">
 
     <TextView
         android:id="@+id/tvTodoTitle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Todotext"
+        android:text="Todo text"
+        android:paddingLeft="10dp"
+        android:fontFamily="serif-monospace"
+        android:textColor="@color/white"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/cvDone"
